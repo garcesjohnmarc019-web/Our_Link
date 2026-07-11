@@ -3,9 +3,10 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "next build"
+  	"build": "npx expo export --no-cache"
 	},
 	"dependencies": {
+		"expo": "^57.0.4",
 		"@auth/core": "^0.37.2",
 		"@babel/generator": "^7.27.1",
 		"@chakra-ui/react": "2.8.2",
