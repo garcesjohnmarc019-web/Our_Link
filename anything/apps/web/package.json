@@ -3,7 +3,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-  	"build": "npx expo export --no-cache"
+  	"build": "react-router build"
 	},
 	"dependencies": {
 		"expo": "^57.0.4",
